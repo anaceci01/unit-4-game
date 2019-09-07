@@ -1,7 +1,7 @@
 
 var result = 0;
-var win= 0;
-var lost= 0;
+var win = 0;
+var lost = 0;
 var target;
 var max = 120;
 var min = 19;
@@ -28,25 +28,24 @@ for (var i = 0; i < 4; i++) {
 }
 
 $(".crystal").on("click", function () {
-   var value = ($(this).attr("data-random"));
-   value = parseInt(value);
-   result += value;
-    
-    $("#score").html(result); {
-        result += random;
+    var value = ($(this).attr("data-random"));
+    value = parseInt(value);
+    result += value;
+
+
+
+    if (result === target) {
+        wins++;
     }
+
+    else if (result >= target) {
+        lost++;
+    }
+    $("#score").html(result);
     $("#loss").html(lost);
+    $("#wins").html(win);
 
 
-
- $("#wins").html(win);
-if (result === target) {
-    wins++;
-}
-
-else if (result >= target) {
-    lost++;
-}
 
 
 
