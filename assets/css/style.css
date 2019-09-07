@@ -1,3 +1,37 @@
 .display-4 {
     font-family: 'Audiowide', cursive;
+    color: pink;
+    text-align: center;
 }
+
+.jumbotron.jumbotron-fluid {
+    background-color: rgb(61, 196, 219);
+
+}
+
+.lead {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.scoreKeeper {
+    font-family: 'Audiowide', cursive;
+    color: rgb(75, 72, 72);
+    text-align: center;
+    position: relative;
+}
+
+.crystals {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.crystal{
+    border:1px solid green;
+    height: 200px;
+    width: 200px;
+    
+}
+

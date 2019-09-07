@@ -17,32 +17,50 @@
 
 
 </head>
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <id class="display-4"><h1>CRYSTALS COLLECTOR GAME</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
-</div>
-
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                1 of 4 columns <img src="assets/images/crystal-1.jpg" class="card-img-top" alt="crystal vector image 1">
-            </div>
-            <div class="col-sm">
-                2 of 4 columns <img src="assets/images/crystal-2.jpg" class="card-img-top" alt="crystal vector image 2">
-            </div>
-            <div class="col-sm">
-                3 of 4 columns <img src="assets/images/crystal-3.jpg" class="card-img-top" alt="crystal vector image 3">
-            </div>
-            <div class="col-sm">
-                4 of 4 columns <img src="assets/images/crystal-4.jpg" class="card-img-top" alt="crystal vector image 4">
-            </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <id class="display-4">
+                <h1>CRYSTALS COLLECTOR GAME</h1>
+                <p class="lead">Each crystal has a random value that will keep adding everytime you click on it. The
+                    goal is to get the same result as the Target Number displayed. Keep in mind every new game, the
+                    values randomly change for both the crystals and the target number.
+                </p>
+                <br>
+            </id>
+
+            <id class="scoreKeeper">
+
+                <h3>Target Number:
+                    <span id="target"></span>
+
+                    Score:
+                    <span id="score">0</span>
+
+                    Wins
+                    <span id="wins">0</span>
+
+                    Losses
+                    <span id="loss">0</span>
+                </h3>
+            </id>
+
         </div>
     </div>
-    <script type= "text/javascript" src="assets/javascript/game.js"></script>
-</body>
+
+
+    <body>
+
+
+        <!-- Crystals -->
+        <div class="crystals">
+
+        </div>
+
+
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
 
 </html>
