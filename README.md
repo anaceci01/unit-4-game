@@ -1,3 +1,10 @@
+# Crystal Collector Game
+*by Ana Davis*
+
+Find the deployed project [here](https://anaceci01.github.io/unit-4-game/) on Github
+
+
+
 # unit-4-game
 
 <!-- Instructions. -->
